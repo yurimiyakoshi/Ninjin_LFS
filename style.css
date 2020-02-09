@@ -100,24 +100,6 @@ nav a:hover{
     position: relative;
 }
 
-p.topbutton{
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    background-color: #e63c35;
-    color: white;
-    text-align: center;
-    line-height: 65px;
-    font-size: 25px;
-    position: absolute;
-}
-
-p.topbutton{
-    right: 120px;
-    bottom: 32px;
-    position: fixed;
-}
-
 #main h2 span{
     background: #e63c35;
     color: #fff;
@@ -144,8 +126,9 @@ p.topbutton{
 	background-size: auto 100vh;
 }
 
-#contents1 span, #contents2 span{
+.area{
     padding-top: 40vh;
+    padding-left: 25vh;
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 2.0px;
@@ -155,7 +138,6 @@ p.topbutton{
     background-image: url(canoe.JPG);
     color: #000;
 }
-
 
 #contents1 span{
     position: absolute;
@@ -169,7 +151,6 @@ p.topbutton{
 }
 
 #contents2 span{
-    padding-left: 25vh;
     text-shadow: 2px 2px 2px #000;
 }
 
@@ -181,4 +162,48 @@ h1.text{
     border-bottom: 6px solid #e63c25;
     height: 64px;
 }
+
+#scroll, #topbutton{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    z-index: 2;
+    display: inline-block;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    text-decoration: none;
+    padding-top: 60px;
+    color: #fff;
+}
+
+#scroll span{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
+}
+
+#topbutton span{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+  box-sizing: border-box;
+}
+
+
+
 
