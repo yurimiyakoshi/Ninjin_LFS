@@ -1,21 +1,21 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Sriracha', cursive;
 }
 
-body{
+body {
     width: 100%;
     background: #ffeeee;
     margin: 0;
 }
 
-h2{
+h2 {
     color: #e63c35;
     margin-bottom: 16px;
 }
 
-.container img{
+.container img {
     width: 300px;
     height: 300px;
     border-radius: 50%;
@@ -24,12 +24,12 @@ h2{
     top: 30%;
 }
 
-p{
+p {
     font-family: 'Kosugi Maru', sans-serif;
     line-height: 1.5;
 }
 
-#header{
+#header {
     width: 100%;
     overflow: hidden;
     background: #e63c35;
@@ -38,21 +38,21 @@ p{
     z-index: 2;
 }
 
-nav{
+nav {
     overflow: hidden;
 }
 
-nav ul{
-     text-align: center;
+nav ul {
+    text-align: center;
 }
 
-nav li{
+nav li {
     list-style-type: none;
     margin-top: 2px;
     display: inline-block;
 }
 
-nav a{
+nav a {
     font-size: 16px;
     display: block;
     text-decoration: none;
@@ -62,12 +62,12 @@ nav a{
     border-bottom: 2px solid #e63c35;
 }
 
-nav a:hover{
+nav a:hover {
     border-bottom: 2px solid #f9f9f9;
     font-weight: 500;
 }
 
-#main{
+#main {
     width: 300px;
     height: 300px;
     overflow: hidden;
@@ -80,18 +80,18 @@ nav a:hover{
     line-height: 40px;
 }
 
-#main span{
+#main span {
     position: absolute;
     display: inline-block;
     left: 0;
     top: 50%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-    width :300px;
-    text-align:center;
+    width: 300px;
+    text-align: center;
 }
 
-#main h2 span{
+#main h2 span {
     background: #e63c35;
     color: #fff;
     margin-right: 10px;
@@ -99,7 +99,7 @@ nav a:hover{
     border-radius: 5px;
 }
 
-.content{
+.content {
     height: 100vh;
     padding-bottom: 0px;
     display: -webkit-flex;
@@ -111,13 +111,14 @@ nav a:hover{
     position: relative;
 }
 
-#contents1, #contents2{
-	background-position: right top;
-	background-repeat: no-repeat;
-	background-size: auto 100vh;
+#contents1,
+#contents2 {
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: auto 100vh;
 }
 
-.area{
+.area {
     padding-top: 40vh;
     padding-left: 25vh;
     font-size: 20px;
@@ -125,27 +126,27 @@ nav a:hover{
     letter-spacing: 2.0px;
 }
 
-#contents1{
+#contents1 {
     background-image: url(canoe.JPG);
     color: #000;
 }
 
-#contents1 span{
+#contents1 span {
     position: absolute;
     right: 25vh;
     text-shadow: 2px 2px 2px #fff;
 }
 
-#contents2{
+#contents2 {
     background-image: url(background_miffy.JPG);
     color: #fff;
 }
 
-#contents2 span{
+#contents2 span {
     text-shadow: 2px 2px 2px #000;
 }
 
-h1.text{
+h1.text {
     font-size: 36px;
     padding-left: 8px;
     margin-bottom: 16px;
@@ -154,7 +155,8 @@ h1.text{
     height: 64px;
 }
 
-#scroll, #topbutton{
+#scroll,
+#topbutton {
     position: absolute;
     bottom: 20px;
     left: 50%;
@@ -166,7 +168,8 @@ h1.text{
     color: #fff;
 }
 
-#scroll span, #topbutton span{
+#scroll span,
+#topbutton span {
     position: absolute;
     top: 0;
     left: 50%;
@@ -178,29 +181,29 @@ h1.text{
     box-sizing: border-box;
 }
 
-#scroll span{
+#scroll span {
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
 }
 
-#topbutton span{
+#topbutton span {
     -webkit-transform: rotate(135deg);
     transform: rotate(135deg);
 }
 
-.title{
+.title {
     padding-top: 10%;
     padding-bottom: 4%;
     text-align: center;
 }
 
-.photo li{
+.photo li {
     width: 300px;
     height: 300px;
     overflow: hidden;
     background: #fff;
     border-radius: 50%;
-    border:solid 10px #ffeeee;
+    border: solid 10px #ffeeee;
 }
 
 .photo {
