@@ -128,6 +128,7 @@ nav a:hover {
 
 #contents1 {
     background-image: url(canoe.JPG);
+    background-size: cover;
     color: #000;
 }
 
@@ -139,6 +140,7 @@ nav a:hover {
 
 #contents2 {
     background-image: url(background_miffy.JPG);
+    background-size: cover;
     color: #fff;
 }
 
